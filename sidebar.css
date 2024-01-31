@@ -1,0 +1,40 @@
+.aside-first {
+  border: 10px solid red;
+  padding: 2em;
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  margin-bottom: 20px;
+}
+
+.aside-second {
+  border: 5px solid red;
+}
+
+.aside-image {
+  width: 100px;
+}
+
+.aside-title {
+  font-family: ubuntu;
+  font-weight: bold;
+  font-size: 14px;
+  color: #143774;
+  width: 90px;
+}
+
+.aside-content {
+  font-family: ubuntu;
+  font-weight: 300;
+  font-size: 10px;
+  color: #143774;
+  width: 120px;
+}
+
+.aside-content-recent {
+  color: #143774;
+  width: 130px;
+}
+
+.aside-title {
+  margin: 0;
+}

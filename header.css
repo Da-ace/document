@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.site-container {
+  background-color: #f8f8f8;
+  padding: 1em 0;
+}
+
+.site-container-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.site-title {
+  font-family: lora;
+  font-size: 2rem;
+  color: #143774;
+  margin: 0;
+}
+
+.site-subtitle {
+  font-family: ubuntu;
+  font-size: 0.75rem;
+  color: #1792d2;
+}
+
+.site-navigation {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+.site-home {
+  font-family: ubuntu;
+  font-size: 1rem;
+  color: #707070;
+  transition: 0.15s;
+}
+
+.site-list {
+  /* margin-left: 2em; */
+  font-family: ubuntu;
+  font-size: 1rem;
+  color: #707070;
+  text-decoration: none;
+  transition: 0.15s;
+}
+
+.site-list:hover,
+.site-home:hover {
+  color: red;
+}
+
+@media (max-width: 670px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+    background-color: red;
+  }
+
+  .site-navigation {
+    flex-direction: column;
+  }
+
+  .site-list {
+    margin: 0.5em 0;
+  }
+}
