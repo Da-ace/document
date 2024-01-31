@@ -3,9 +3,12 @@
   display: flex;
   justify-content: center;
   gap: 30px;
+  /* flex-direction: column */
+  align-items: top;
 }
-.first-image {
-  width: 700px;
+
+.first-image-div {
+  max-width: 700px;
 }
 
 .first-content {
@@ -40,7 +43,7 @@
 
 .main-content {
   color: #707070;
-  width: 500px;
+  max-width: 500px;
   font-family: ubuntu;
   font-weight: 300;
   font-size: 12px;
@@ -64,4 +67,22 @@
   grid-template-columns: auto 1fr;
   gap: 12px;
   margin-bottom: 30px;
+}
+
+@media (max-width: 480px) {
+  .tertiary-article {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .all-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
 }
