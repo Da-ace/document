@@ -58,19 +58,3 @@ body {
 .site-home:hover {
   color: red;
 }
-
-@media (max-width: 670px) {
-  header {
-    flex-direction: column;
-    text-align: center;
-    background-color: red;
-  }
-
-  .site-navigation {
-    flex-direction: column;
-  }
-
-  .site-list {
-    margin: 0.5em 0;
-  }
-}
