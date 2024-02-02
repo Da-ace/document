@@ -1,22 +1,20 @@
 .aside-first {
-  border: 20px solid #ebebeb;
+  border: 10px solid #ebebeb;
   padding: 1em;
-  padding-right: 1.5em;
-  padding-left: 2.5em;
   margin-bottom: 30px;
 }
 
 .aside-second {
-  border: 20px solid #ebebeb;
+  border: 10px solid #ebebeb;
   padding: 1em;
-  padding-right: 1.5em;
-  padding-left: 2.5em;
 }
 
 .aside-image {
-  height: 120px;
+  width: 100%;
+  object-fit: cover;
   padding-bottom: 8px;
-  padding-top: 30px;
+  padding-top: 10px;
+  height: 100px;
 }
 
 .aside-title,
@@ -47,8 +45,4 @@
   color: #143774;
   width: 130px;
   padding-bottom: 30px;
-}
-
-.aside-title {
-  text-align: center;
 }

@@ -1,18 +1,15 @@
-body {
-  margin: 0;
-  padding: 0;
-}
-
 .site-container {
   background-color: #f8f8f8;
   padding: 1em 0;
+  align-items: top;
+  margin-bottom: 16px;
 }
 
 .site-container-header {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  max-width: 900px;
+  max-width: 700px;
   margin: 0 auto;
   align-items: center;
 }
@@ -39,6 +36,14 @@ body {
 }
 
 .site-home {
+  font-family: ubuntu;
+  font-size: 1rem;
+  color: #707070;
+  transition: 0.15s;
+  text-decoration: none;
+}
+
+.site-story {
   font-family: ubuntu;
   font-size: 1rem;
   color: #707070;

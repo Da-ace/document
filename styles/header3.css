@@ -1,0 +1,65 @@
+.site-container {
+  background-color: #f8f8f8;
+  padding: 1em 0;
+  align-items: top;
+  border-bottom: none;
+}
+
+.site-container-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.site-title {
+  font-family: lora;
+  font-size: 2rem;
+  color: #143774;
+  margin: 0;
+}
+
+.site-subtitle {
+  font-family: ubuntu;
+  font-size: 0.75rem;
+  color: #1792d2;
+}
+
+.site-navigation {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+.site-home {
+  font-family: ubuntu;
+  font-size: 1rem;
+  color: #707070;
+  transition: 0.15s;
+  text-decoration: none;
+}
+
+.site-story {
+  font-family: ubuntu;
+  font-size: 1rem;
+  color: #707070;
+  text-decoration: none;
+  transition: 0.15s;
+}
+
+.site-list {
+  /* margin-left: 2em; */
+  font-family: ubuntu;
+  font-size: 1rem;
+  color: #707070;
+}
+
+.site-home:hover,
+.site-story:hover {
+  color: red;
+}

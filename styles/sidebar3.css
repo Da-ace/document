@@ -1,0 +1,54 @@
+.aside-first {
+  border: 10px solid #ebebeb;
+  padding: 0.5em;
+  margin-bottom: 30px;
+}
+
+.aside-second {
+  border: 10px solid #ebebeb;
+  padding: 0.5em;
+}
+
+.aside-image {
+  height: 80px;
+  width: 100%;
+  object-fit: cover;
+  /* padding-bottom: 8px;
+  padding-top: 10px; */
+}
+
+.aside-title-recent {
+  font-family: ubuntu;
+  font-weight: bold;
+  font-size: 14px;
+  color: #143774;
+  width: 40px;
+}
+
+.aside-title {
+  font-family: ubuntu;
+  font-weight: bold;
+  font-size: 14px;
+  color: #143774;
+}
+
+.aside-content {
+  font-family: ubuntu;
+  font-weight: 300;
+  font-size: 10px;
+  color: #143774;
+  width: 120px;
+}
+
+.aside-content-recent {
+  color: #143774;
+  width: 130px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #707070;
+}
+
+.aside-content-deco {
+  color: #143774;
+  width: 130px;
+  padding-bottom: 30px;
+}
